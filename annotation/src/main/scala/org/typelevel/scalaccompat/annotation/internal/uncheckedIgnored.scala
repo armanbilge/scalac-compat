@@ -14,26 +14,7 @@
  * limitations under the License.
  */
 
-package org.typelevel.scalaccompat
+package org.typelevel.scalaccompat.annotation
+package internal
 
-/** Custom annotations for Scala v3
-  */
-package object annotation {
-  import internal._
-
-  type nowarn    = scala.annotation.nowarn
-  type nowarn2   = nowarnIgnored
-  type nowarn212 = nowarnIgnored
-  type nowarn213 = nowarnIgnored
-  type nowarn3   = nowarn
-
-  type targetName3 = scala.annotation.targetName
-
-  type unchecked    = scala.unchecked
-  type unchecked2   = uncheckedIgnored
-  type unchecked212 = uncheckedIgnored
-  type unchecked213 = uncheckedIgnored
-  type unchecked3   = unchecked
-
-  type unused = scala.annotation.unused
-}
+private[annotation] class uncheckedIgnored extends scala.annotation.Annotation

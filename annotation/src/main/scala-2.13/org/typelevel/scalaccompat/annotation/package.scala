@@ -29,5 +29,11 @@ package object annotation {
 
   type targetName3 = targetNameIgnored
 
+  type unchecked    = scala.unchecked
+  type unchecked2   = unchecked
+  type unchecked212 = uncheckedIgnored
+  type unchecked213 = unchecked
+  type unchecked3   = uncheckedIgnored
+
   type unused = scala.annotation.unused
 }

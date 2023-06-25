@@ -28,4 +28,10 @@ package object annotation {
   type nowarn3   = nowarnIgnored
 
   type targetName3 = targetNameIgnored
+
+  type unchecked    = scala.unchecked
+  type unchecked2   = unchecked
+  type unchecked212 = unchecked
+  type unchecked213 = uncheckedIgnored
+  type unchecked3   = uncheckedIgnored
 }
